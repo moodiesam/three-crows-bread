@@ -13,6 +13,7 @@ export default function Home() {
   return (
     <section className={`grid justify-center items-center ${playfairDisplay.className} min-h-screen bg-black text-slate-50`}>
       <h1 className="text-6xl italic text-center">Three Crows Bread</h1>
+      <h2 className="text-4xl text-center">Coming Soon</h2>
       <div className="flex">
         <Image 
           src={crowDarkGrey}
