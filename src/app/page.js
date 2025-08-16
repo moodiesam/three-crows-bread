@@ -14,18 +14,21 @@ export default function Home() {
     <section className={`grid justify-center items-center ${playfairDisplay.className} min-h-screen bg-black text-slate-50`}>
       <h1 className="text-6xl italic text-center">Three Crows Bread</h1>
       <h2 className="text-4xl text-center">Coming Soon</h2>
-      <div className="flex">
+      <div className="flex justify-center w-full">
         <Image 
           src={crowDarkGrey}
           alt="Picture of a Crow"
+          className="hidden md:block"
         />
         <Image 
           src={crowLightGrey}
           alt="Picture of a Crow"
+          className="mx-auto block"
         />
         <Image 
           src={crowDarkGrey}
           alt="Picture of a Crow"
+          className="hidden md:block"
         />
       </div>
     </section>
