@@ -7,7 +7,7 @@ export default function Contact() {
                     We'd love to hear from you! Whether you have questions about our breads, want to place a special order, or just want to say hello, please reach out.
                 </p>
                 <p>
-                    Email: <a href="mailto:info@threecrowsbread.com" className="underline">info@threecrowsbread.com</a><br />
+                    Email: <a href="mailto:threecrowsbread@gmail.com" className="underline">threecrowsbread@gmail.com</a><br />
                     Phone: <span className="whitespace-nowrap">555-123-4567</span><br />
                     Visit us at: 123 Baker Street, Breadtown
                 </p>
